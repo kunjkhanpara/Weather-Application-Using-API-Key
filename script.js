@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function getWeather() {
     const location = document.getElementById('location-input').value;
-    const apiKey = 'c3849937d662f21b820d63160598cdcb';
+    const apiKey = 'YOUR API KEY';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
   
     fetch(url)
